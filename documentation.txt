@@ -1,0 +1,40 @@
+-- VARIABLES --
+lebronsVariablePlayer → var: Used to declare variables globally or functionally.
+letHimCookNow → let: Used to declare block-scoped variables.
+constantlyTheGoat → const: Used to declare constants.
+
+-- FUNCTIONS -- 
+functionalyAGod → function
+roster: param1, param2 → (param1, param2) 
+ex. functionalyAGod func roster: param1 → function func (param1)
+
+-- CONTROL FLOW -- 
+kingJamesHoldsCourt → if
+leboobooJamesTriesAgain → else if
+anotherChanceToDominate → else
+subHimInCoach → switch
+
+-- LOOPS --
+untilHesBenched → for: A standard for loop.
+untilTheBuzzer → while: A standard while loop.
+lebronStopsThePlay → break: Exits a loop.
+lebronPushesForward → continue: Skips to the next iteration.
+
+-- ERROR HANDLING --
+heDontHaveToTryCauseHesLikeThat → try
+catchThatBallLikeTheGoatHeIs → catch
+
+-- ASYNC -- 
+hesSynchronizedWithTheGame → async
+waitForTheEtherealLebrobroJamesToFinishHisPlay → await
+
+-- ADITIONAL KEYWORDS -- 
+lebronSays → console.log: Outputs to the console.
+lebronPassesItBack → return: Returns a value from a function.
+lebronStartsFresh → new: Creates a new object or instance.
+newSpeciesOfTheGOAT → class: Declares a class.
+
+-- MATH --
+randomPlay → Math.random()
+roundUpMyDearestSir → Math.Ceil
+roundDownMyDearestSir → Math.floor

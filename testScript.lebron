@@ -1,0 +1,14 @@
+functionalyAGod generatePassword roster: passwordLength {
+  letHimCookNow characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
+  letHimCookNow password = "";
+
+  untilHesBenched (letHimCookNow i = 0; i < passwordLength; i++) {
+    letHimCookNow randomIndex = roundDownMyDearestSir(randomPlay * characters.length);
+    password += characters[randomIndex];
+  }
+
+  lebronPassesItBack password;
+}
+
+lebronSays("Random password: ");
+lebronSays(generatePassword(12));
