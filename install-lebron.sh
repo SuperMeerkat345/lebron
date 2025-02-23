@@ -29,26 +29,26 @@ function compileLeBronCode(filePath) {
     let compiledCode = fileContent;
 
     compiledCode = compiledCode
-    .replace(/lebronSays/g, 'console.log')
-    .replace(/functionalyAGod\s+(\w+)\s+roster:\s*([\w,\s]*)\s*{/g, 'function $1($2) {')
-    .replace(/lebronPassesItBack/g, 'return')
-    .replace(/untilHesBenched/g, 'for')
-    .replace(/untilTheBuzzer/g, 'while')
-    .replace(/kingJamesHoldsCourt/g, 'if')
-    .replace(/leboobooJamesTriesAgain/g, 'else if')
-    .replace(/anotherChanceToDominate/g, 'else')
-    .replace(/letHimCookNow/g, 'let')
-    .replace(/constantlyTheGoat/g, 'const')
-    .replace(/lebronStopsThePlay/g, 'break')
-    .replace(/lebronPushesForward/g, 'continue')
-    .replace(/subHimInCoach/g, 'switch')
-    .replace(/hesSynchronizedWithTheGame/g, 'async')
-    .replace(/waitForTheEtherealLebrobroJamesToFinishHisPlay/g, 'await')
-    .replace(/heDontHaveToTryCauseHesLikeThat/g, 'try')
-    .replace(/catchThatBallLikeTheGoatHeIs/g, 'catch')
-    .replace(/randomPlay/g, 'Math.random()')
-    .replace(/roundDownMyDearestSir/g, 'Math.floor')
-    .replace(/roundUpMyDearestSir/g, 'Math.ceil');
+        .replace(/lebronSays/g, 'console.log')
+        .replace(/functionalyAGod\s+(\w+)\s+roster:\s*([\w,\s]*)\s*{/g, 'function $1($2) {')
+        .replace(/lebronPassesItBack/g, 'return')
+        .replace(/untilHesBenched/g, 'for')
+        .replace(/untilTheBuzzer/g, 'while')
+        .replace(/kingJamesHoldsCourt/g, 'if')
+        .replace(/leboobooJamesTriesAgain/g, 'else if')
+        .replace(/anotherChanceToDominate/g, 'else')
+        .replace(/letHimCookNow/g, 'let')
+        .replace(/constantlyTheGoat/g, 'const')
+        .replace(/lebronStopsThePlay/g, 'break')
+        .replace(/lebronPushesForward/g, 'continue')
+        .replace(/subHimInCoach/g, 'switch')
+        .replace(/hesSynchronizedWithTheGame/g, 'async')
+        .replace(/waitForTheEtherealLebrobroJamesToFinishHisPlay/g, 'await')
+        .replace(/heDontHaveToTryCauseHesLikeThat/g, 'try')
+        .replace(/catchThatBallLikeTheGoatHeIs/g, 'catch')
+        .replace(/randomPlay/g, 'Math.random()')
+        .replace(/roundDownMyDearestSir/g, 'Math.floor')
+        .replace(/roundUpMyDearestSir/g, 'Math.ceil');
 
     // return the compiled JavaScript code
     return compiledCode;
