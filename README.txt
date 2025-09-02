@@ -11,3 +11,7 @@ You can test this on the testScript.lebron filepath
   c.) -tlb <filePath.js> <filePath.lebron> (translate to lebron) translates javascript code to a lebron file
 
 4.) read the documentation for any questions
+
+5.) TODO: 
+- Add --version arg
+- Fix process.argv bug
