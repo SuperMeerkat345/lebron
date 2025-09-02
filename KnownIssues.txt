@@ -1,0 +1,13 @@
+1) Doesn't translate process.argv correctly as (node testscript.js arg1) where arg1 is first arguement would say that (lebron -c testscript.lebron arg1) the first arguement is -c
+May be able to fix in future updates.
+
+2) When translating from js to lebron or vice versa, if you have a print statement that says:
+'console.log("console.log is a function")' it will translate it to 'lebronSays("lebronSays is a function")'
+
+This isn't a major issure here (even though it could be since no errors are raised), the program will still run.
+The difficult part is if you have a variable like:
+
+'lebronSaysGo = true' it will translate to  'console.logGo = true' which won't inherintely break the program immediately since
+ALL instances of the variables would get translated, but it can get messy.
+
+
